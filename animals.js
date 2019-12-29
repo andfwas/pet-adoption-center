@@ -1,34 +1,4 @@
-
-
-// var y = []
-// var a = ' ! '
-// var canary = '*@*@*@*@*@*@*'
-
-// canary.toUpperCase().split('').forEach(e => {
-//   y.push(' ' + e + ' ')
-//   console.log(' '.repeat(canary.length*3 - y.length*3) + a + y.join(a) + a)
-//   console.log('Merry F-ing Christmas'.toUpperCase().split('').join(' @ '))
-// });
-
-// var number = 20
-
-// function xmasTree(num) {
-//   for (let i = 0; i < num; i++) {
-//     console.log(' '.repeat((num-i)*2) + '*!*!'.repeat(i))
-//   }
-// }
-// xmasTree(number)
-
-var searchTerm = document.getElementById('searchInput')
-var searchForm = document.getElementById('search')
-searchForm.addEventListener('submit', (e) => {
-  e.preventDefault();
-  console.log(searchTerm.value)
-  console.log(e)
-})
-
-
-var animals = {
+module.exports = {
   "animals": [
       {
           "id": 46961710,
@@ -1465,32 +1435,16 @@ var animals = {
               }
           }
       }
-  ]
-}
-var thediv = document.getElementById('thediv')
-
-animals.animals.forEach(e => {
-  console.log(e.name)
-  if (e.photos[0]) {
-    let pic = document.createElement('img')
-    pic.src = e.photos[0].full
-    console.log(typeof(pic.src))
-    thediv.appendChild(pic)
-  } else {
-    let problem = document.createElement('p')
-    problem.innerHTML = 'no pictures'
-    thediv.appendChild(problem)
+  ],
+  "pagination": {
+      "count_per_page": 20,
+      "total_count": 7951235,
+      "current_page": 1,
+      "total_pages": 397562,
+      "_links": {
+          "next": {
+              "href": "/v2/animals?page=2"
+          }
+      }
   }
-  console.log(e.photos[0] ? e.photos[0].large : 'happy time yay')
-  let x = document.createElement('div')
-  x.innerHTML = e.name
-  thediv.appendChild(x)
-});
-
-
-// animals.animals.forEach(element => {
-//   let el = document.createElement('div')
-//   let title = document.createElement('p')
-//   title.innerHTML = el.name
-//   el.appendChild(title)
-// });
+}
