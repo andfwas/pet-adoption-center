@@ -1,4 +1,4 @@
-module.exports = {
+var animals = {
   "animals": [
       {
           "id": 46961710,
@@ -1435,16 +1435,5 @@ module.exports = {
               }
           }
       }
-  ],
-  "pagination": {
-      "count_per_page": 20,
-      "total_count": 7951235,
-      "current_page": 1,
-      "total_pages": 397562,
-      "_links": {
-          "next": {
-              "href": "/v2/animals?page=2"
-          }
-      }
-  }
+  ]
 }

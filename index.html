@@ -1,17 +1,29 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>TITLE</title>
+    <title>Pet Adoption Center</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    <form id="search" type="submit">
-      <input id="searchInput" type="text" placeholder="enter a search term">
-      <button>Search</button>
-    </form>
-    <div id="thediv"></div>
     
-    <script src="index.js">
-    </script>
+    <!-- Title and search - these will be on every page -->
+    <main class="main">
+      <h1>Pet Adoption Center</h1>
+      <form id="search" type="submit">
+        <div class="input-field inline removepadding">
+          <input id="searchInput" type="text" placeholder="enter a search term">
+        </div>
+        <button class="waves-effect waves-light btn formfloater" type="submit">Search</button>
+      </form>
+    </main>
+
+    <!-- This section will dynamically change based on user input -->
+    <section>
+      <div id="thediv"></div>
+    </section>
+    
+    <script src="animals.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>

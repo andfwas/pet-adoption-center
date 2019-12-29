@@ -18,6 +18,7 @@ These are the required goals for the project. Every project should _at least_ me
     * [figma link](https://www.figma.com/file/G9fMcDe36BM1unzhSx1XwA/Seedling-School?node-id=0%3A1 "Pet Adoption Center")
   * Demonstrate your ability to complete a project to MVP (Minimum Viable Product) within 1.5 weeks
   * Demonstrate your ability to use a REST API tool to test requests to a 3rd party API
+    * postman
 * HTML
   * Demonstrate your ability to create html pages that link to each other
   * Demonstrate your ability to use semantic HTML tags

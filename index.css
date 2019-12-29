@@ -1,3 +1,22 @@
-body   {
-  background-color: blue;
+.main   {
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+#search {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  border: none;
+  outline: none;
+}
+
+.formfloater {
+  margin: 20px;
+}
+.removepadding {
+  padding: 0 0 0 0;
+  margin: 20px 0 0 0;
 }
