@@ -1,0 +1,23 @@
+{
+  "name": "pet-adoption-center",
+  "version": "1.0.0",
+  "description": "## 01 - Frontend Project",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andfwas/pet-adoption-center.git"
+  },
+  "author": "Andy Smart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andfwas/pet-adoption-center/issues"
+  },
+  "homepage": "https://github.com/andfwas/pet-adoption-center#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}

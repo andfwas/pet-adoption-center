@@ -6,6 +6,8 @@
 }
 
 #search {
+  width: 50%;
+  margin: auto;
   display: flex;
   flex-flow: row;
   justify-content: space-between;
@@ -19,4 +21,8 @@
 .removepadding {
   padding: 0 0 0 0;
   margin: 20px 0 0 0;
+}
+
+.animal {
+  width: 90%;
 }

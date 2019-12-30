@@ -6,13 +6,20 @@
     <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    
+
     <!-- Title and search - these will be on every page -->
     <main class="main">
       <h1>Pet Adoption Center</h1>
       <form id="search" type="submit">
         <div class="input-field inline removepadding">
-          <input id="searchInput" type="text" placeholder="enter a search term">
+          <!-- <input id="" type="text" placeholder="enter a search term"> -->
+          <!-- <select id="searchInput">
+            <option value="" disabled selected>Choose your option</option>
+          </select> -->
+          <!-- <label>Browser Select</label> -->
+          <select id="searchInput" class="browser-default">
+            <option value="" disabled selected>Animal Types</option>
+          </select>
         </div>
         <button class="waves-effect waves-light btn formfloater" type="submit">Search</button>
       </form>
