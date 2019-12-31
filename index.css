@@ -24,5 +24,56 @@
 }
 
 .animal {
-  width: 90%;
+  opacity: 0.8;
+  border-radius: 10px;
+  transition-duration: 0.2s;
+  width: 95%;
+  margin: auto;
+  padding: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.animalPic {
+  transition-duration: 0.1s;
+  border-radius: 7px;
+  box-shadow: 2px 2px 5px #333,
+  -2px 2px 5px #333,
+  2px -2px 5px #333,
+  -2px -2px 5px #333;
+}
+
+.animalPic:hover {
+  box-shadow: none;
+}
+
+.animal:hover {
+  opacity: 1;
+  background-color: #333;
+  color: #DDD;
+  box-shadow: 4px 4px 15px #777,
+  -4px 4px 15px #777,
+  4px -4px 15px #777,
+  -4px -4px 15px #777;
+}
+
+.noPic {
+  transition-duration: 0.1s;
+  background-color: #ccc;
+  color: #222;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+a {
+  color: #123123;
+  text-decoration: none;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+.details {
+  font-style: italic;
 }
